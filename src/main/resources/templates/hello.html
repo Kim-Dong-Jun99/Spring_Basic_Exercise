@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"> <!--타임 리프 문법을 쓸 수 있다-->
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'안녕하세요. ' + ${data}" >안녕하세요. 손님</p> <!--data가 아까 컨트롤러에서 선언한 data로 치환된다-->
+</body>
+</html>
